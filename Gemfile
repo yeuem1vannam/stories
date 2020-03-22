@@ -1,28 +1,28 @@
 source 'https://rubygems.org'
 ruby "2.3.3"
 
-gem 'rails', '4.2.6'
+gem 'rails', '5.2.4.2'
 gem 'puma', '~> 2.15'
 gem 'pg'
 
 # Auth
-gem 'devise', '~> 3.5.3'
+gem 'devise', '~> 4.4.2'
 gem 'omniauth-facebook', '~> 3.0'
 gem 'omniauth-twitter', '~> 1.2'
 gem 'omniauth-google-oauth2', '~> 0.3.1'
 
 # Front-end
-gem 'react-rails', '~> 1.10'
+gem 'react-rails', '~> 1.10', '>= 1.10.0'
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.5'
 gem 'font-awesome-sass', '~> 4.5'
 gem 'uglifier', '>= 1.3.0'
 gem 'autoprefixer-rails', '~> 6.3'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem 'turbolinks', '~> 2.5'
-gem 'jquery-rails'
-gem 'jquery-ui-rails', '~> 5.0'
+gem 'turbolinks', '~> 2.5', '>= 2.5.3'
+gem 'jquery-rails', '>= 4.1.1'
+gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
 gem 'jbuilder', '~> 2.0'
 
 gem 'friendly_id', '~> 5.1'
@@ -58,7 +58,7 @@ gem 'dalli', '~> 2.7'
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails', '~> 3.4.0'
+  gem 'rspec-rails', '~> 3.5.0'
   gem 'poltergeist', '~> 1.8'
   gem 'awesome_print', '~> 1.6'
   gem 'bundler-audit', '~> 0.5.0'
@@ -68,7 +68,7 @@ end
 group :development do
   gem 'rails_best_practices', '~> 1.15'
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
   gem 'spring'
   gem 'guard-rspec', require: false
   gem 'spring-commands-rspec', '~> 1.0'
