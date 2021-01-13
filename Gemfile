@@ -7,7 +7,7 @@ gem 'pg'
 
 # Auth
 gem 'devise', '~> 3.5.3'
-gem 'omniauth-facebook', '~> 3.0'
+gem 'omniauth-facebook', '~> 3.0', '>= 3.0.0'
 gem 'omniauth-twitter', '~> 1.2'
 gem 'omniauth-google-oauth2', '~> 0.3.1'
 
