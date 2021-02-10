@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'friendly_id', '~> 5.1'
 
 # Image upload
-gem 'carrierwave', '0.10.0'
+gem 'carrierwave', '1.3.2'
 gem 'mini_magick', '3.8.0'
 gem 'fog',  '1.23.0'
 gem 'net-ssh'
