@@ -32,7 +32,7 @@ gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '3.8.0'
 gem 'fog',  '1.23.0'
 gem 'net-ssh'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 
 # Load will_paginate before elasticsearch gems.
 gem 'will_paginate', '~> 3.1'
